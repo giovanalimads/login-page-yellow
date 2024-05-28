@@ -83,6 +83,33 @@ input{
     padding: 0px 20px;
 }
 
+.senha{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-eye-container{
+    position: relative;
+    width: 100%;
+}
+
+.input-eye-container input{
+    width: 100%;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.input-eye-container i{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 12px;
+    color: lightgray;
+}
+
 .box-check{
     padding: 0px 18px;
     display: flex;
