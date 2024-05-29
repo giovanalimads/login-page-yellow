@@ -63,14 +63,27 @@ h2{
     margin-top: -2px;
 }
 
-input{
+input[type="text"],
+input[typr="password"],
+input[type="email"],
+button{
+    appearance: none;
+	outline: none;
+	border: none;
+	background: none;
+}
+
+input[type="text"],
+input[typr="password"],
+input[type="email"]{
     background: var(--background);
-    border: 1px solid #ccc;
+    border: 1px solid #bbb;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
     padding: 6px 20px;
     margin-bottom: 10px;
+    transition: border-color 0.3s ease-out;
 }
 
 .box-input-container{
@@ -83,10 +96,14 @@ input{
     padding: 0px 20px;
 }
 
-.senha{
-    position: relative;
-    display: flex;
-    flex-direction: column;
+.title-passwd{
+    margin-top: -12px;
+}
+.input-passwd{
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    transition: border-color 0.3s ease-out;
 }
 
 .input-eye-container{
@@ -125,19 +142,16 @@ input{
 .text-termos{
     font-size: 12px;
     font-weight: 600;
-    margin-top: 7px;
+    margin-top: 12px;
 }
 
 .bnt{
     background: #FFA800;
     font-weight: 600;
     padding: 10px;
-    width: calc(100% - 30px);
-    margin-left: 16px;
-}
-
-.bnt:hover{
-    background: #ffaa00;
+    width: calc(100% - 150px);
+    margin-left: 75px;
+    cursor: pointer;
 }
 
 .text-outra-conta{
@@ -146,6 +160,7 @@ input{
     font-weight: 600;
     margin-top: -10px;
     text-align: center;
+    padding-bottom: 5px;
 }
 
 .text-outra-conta a{

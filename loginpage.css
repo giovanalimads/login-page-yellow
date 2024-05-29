@@ -1,0 +1,87 @@
+:root{
+    --details: #FFA800;
+    --background: #F6F6F6;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-color: #5C5C5C;
+	color: white;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+form{
+    display: block;
+    width: 100%;
+    max-width: 414px;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.rectangle{
+    background-color: var(--details);
+    width: 100%;
+    height: 8px;
+    margin-top: -10px;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+label span{
+    display: block;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    transition: 0.3s ease-out;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+	appearance: none;
+	outline: none;
+	border: none;
+	background: none;
+}
+
+input[type="text"],
+input[type="password"] {
+	display: block;
+	width: 100%;
+	padding: 10px 20px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+    background: var(--background);
+	transition: border-color 0.3s ease-out;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	border-color: #2b2d2f;
+}

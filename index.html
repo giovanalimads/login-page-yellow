@@ -22,45 +22,46 @@
                 <div class="box-input-container">
                     <div class="box-input">
                         <h2>Nome</h2>
-                        <input type="search" class="name-input" name="" id="">
+                        <input type="text" name="name" id="name">
                     </div>
                     <div class="box-input">
                         <h2>Sobrenome</h2>
-                        <input type="search" class="name-input" name="" id="">
+                        <input type="text" class="lname-input" name="lname" id="lname">
                     </div>
                 </div>
 
                 <div class="box-input-container">
                     <div class="box-input bx">
                         <h2>CEP</h2>
-                        <input type="search" name="" id="">
+                        <input type="text" name="cep" id="cep">
                     </div>
                     <div class="box-input bx">
                         <h2>Número</h2>
-                        <input type="search" name="" id="">
+                        <input type="text" name="adress-number" id="adress-number">
                     </div>
                 </div>
 
                 <div class="box-input-container">
                     <div class="box-input">
                         <h2>Rua</h2>
-                        <input type="search" name="" id="">
+                        <input type="text" name="adress" id="adress">
                     </div>
                     <div class="box-input">
                         <h2>Cidade</h2>
-                        <input type="search" name="" id="">
+                        <input type="text" name="city" id="city">
                     </div>
                 </div>
 
                 <div class="box-input-container">
                     <div class="box-input">
                         <h2>E-mail</h2>
-                        <input type="search" name="" id="">
+                        <input type="email" name="email" id="email">
                     </div>
                     <div class="box-input senha">
-                        <h2>Senha</h2>
+                        <h2 class="title-passwd">Senha</h2>
                         <div class="input-eye-container">
-                            <input type="password" name="password" id="password">
+                            <input 
+                            class="input-passwd" type="password"name="password" id="password">
                             <i class="fa-solid fa-eye" id="show-password"></i>
                         </div>
                     </div>
@@ -70,7 +71,7 @@
                     <h3 class="text-termos">Concordo com os Termos e Condições</h3>
                 </div>
 
-                <input class="bnt" type="button" value="Cadastrar Conta">
+                <input class="bnt" type="submit" value="Cadastrar Conta" onclick="cadastrarConta()">
 
                 <h3 class="text-outra-conta">Já possui uma conta? <a href="#">Logar</a></h3>
             </div>

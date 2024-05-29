@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"">
+    <title>página de Login</title>
+</head>
+<body>
+    <main>
+         <form>
+            <div class="rectangle"></div>
+            <h3>Login</h3>
+       
+            <label>
+                <span>Usuário</span>
+                <input 
+                    type="text" 
+                    name="username" 
+                    id="username" />
+            </label>
+
+            <label>
+				<span>Password</span>
+				<div class="passwd-wrap">
+					<input
+						type="password"
+						id="password"
+						placeholder="Enter your password..." />
+
+					<button type="button" id="show-passwd">
+						<img src="eye-icons/eye_open.svg" alt="Show Password" />
+					</button>
+				</div>
+			</label>
+
+                <button class="button" type="submit">Logar</button>
+                </div>
+        </form>
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
