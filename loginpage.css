@@ -41,10 +41,23 @@ form{
     border-radius: 10px;
 }
 
+.box-title{
+    display: flex;
+}
+
+.square{
+    background-color: var(--details);
+    margin-top:8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+
 h3{
     font-size: 24px;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 14px;
+    margin-left: -15px;
 }
 
 label{
@@ -84,4 +97,43 @@ input[type="password"] {
 input[type="text"]:focus,
 input[type="password"]:focus {
 	border-color: #2b2d2f;
+}
+
+.button{
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    cursor: pointer;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    transition: background-color 0.3s ease-out;
+}
+
+.button:hover{
+    background-color: #FFA800;
+}
+
+.passwd-wrap{
+    position: relative;
+}
+
+#show-passwd{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#show-passwd img{
+    width: 100%;
+    height: auto;
 }

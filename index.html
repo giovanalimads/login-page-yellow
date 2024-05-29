@@ -12,7 +12,7 @@
         <div class="page">
             <div class="text">
                 <div class="rectangle"></div>
-                <div class="box-text">
+                <div class="box-title">
                     <div class="square"></div>
                     <h1>Increva-se</h1>
                 </div>
@@ -61,8 +61,12 @@
                         <h2 class="title-passwd">Senha</h2>
                         <div class="input-eye-container">
                             <input 
-                            class="input-passwd" type="password"name="password" id="password">
-                            <i class="fa-solid fa-eye" id="show-password"></i>
+                            class="input-passwd" type="password" name="password" id="password">
+
+                            <button type="button" id="show-passwd">
+                                <img src="eye-icons/eye-open.png" alt="Show Password" />
+                            </button>
+
                         </div>
                     </div>
                 </div>
@@ -71,9 +75,9 @@
                     <h3 class="text-termos">Concordo com os Termos e Condições</h3>
                 </div>
 
-                <input class="bnt" type="submit" value="Cadastrar Conta" onclick="cadastrarConta()">
+                <input class="button" type="submit" value="Cadastrar Conta" onclick="cadastrarConta()">
 
-                <h3 class="text-outra-conta">Já possui uma conta? <a href="#">Logar</a></h3>
+                <h3 class="text-outra-conta">Já possui uma conta? <a href="loginpage.html">Logar</a></h3>
             </div>
         </div>
     </section>
