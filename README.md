@@ -1,6 +1,6 @@
 # Login Page Yellow
 ## about
-This login page is my first project of a login page with HTML, CSS and JavaScript. It's simple, only to show my front-end skills. 
+This is my first project of a login page with HTML, CSS and JavaScript. It's simple, only to show my front-end skills. 
 
 ## screenshots
 Sign-up page:
